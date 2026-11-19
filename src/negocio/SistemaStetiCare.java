@@ -14,10 +14,7 @@ import modelo.TipoPelaje;
 import modelo.TipoServicio;
 import negocio.GestorClientes.DatosNuevaMascota;
 
-/**
- * Fachada principal de la capa de negocio que integra los 4 módulos de StetiCare
- * y precarga datos iniciales del negocio StetiDog's (Quito) para pruebas.
- */
+
 public class SistemaStetiCare {
     private final ParametrosConfiguracion configuracion;
     private final GestorClientes gestorClientes;
